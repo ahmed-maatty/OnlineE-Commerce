@@ -1,0 +1,63 @@
+.AboutHeader {
+    background: url(../../assets/about/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.whoWeAre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.aboutImg {
+    width: 45%;
+}
+
+.aboutImg img {
+    width: 100%;
+}
+
+
+.whoWeAreContent {
+    width: 45%;
+}
+
+.OurApp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.OurApp span{
+    color: #ef3636;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+video {
+    border-radius: 1.5rem;
+}
+
+@media only screen and (max-width:992px) {
+    .whoWeAre {
+        flex-direction: column;
+    }
+
+    .aboutImg {
+        width: 95%;
+    }
+
+    .whoWeAreContent {
+        width: 95%;
+        margin: 2rem;
+        text-align: center;
+    }
+
+    video {
+        width: 95%;
+    }
+}
